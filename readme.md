@@ -1,5 +1,5 @@
 
-## Meus exemplos práticos de SQL para análise de dadoscom PostgreSQL:
+## Meus exemplos práticos de SQL para análise de dados com PostgreSQL:
 - Comandos básicos (SELECT, DISTINCT, WHERE, ORDER BY e LIMIT)
 - Operadores (Aritméticos, Comparação e Lógicos)
 - Funções agregadas (COUNT, SUM, MIN, MAX, AVG, GROUP BY e HAVING)
