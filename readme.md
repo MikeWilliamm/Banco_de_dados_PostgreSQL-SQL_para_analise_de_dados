@@ -19,5 +19,5 @@
 - Normalização de dados (5 formas normais)
 
 ## Dados
-- Dados dos exemplos nas pastas 1 até 11 em "Dados exemplo da pasta 01 a 11"
-- Dados dos exemplos nas pastas 12 até 15 em "Dados exemplo da pasta 12 a 15"
+- Dados dos exemplos nas pastas 1 até 11 em "Dados exemplo da pasta 01 a 11".
+- Dados dos exemplos nas pastas 12 até 15 em "Dados exemplo da pasta 12 a 15".
