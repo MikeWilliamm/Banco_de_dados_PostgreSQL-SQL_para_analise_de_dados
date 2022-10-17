@@ -1,0 +1,24 @@
+select * into temp_tables.customers_age from (
+select 
+	first_name || ' ' || last_name as nome,
+	datediff('y', birth_date, current_date) as idade_cliente
+	from sales.customers c
+	where first_name ilike 'A%') as r;
+----------------------------
+select 
+	first_name || ' ' || last_name as nome,
+	datediff('y', birth_date, current_date) as idade_cliente
+	into temp_tables.customers_age
+from sales.customers c 
+where first_name ilike 'a%'
+
+
+------------------
+
+update sales.customers 
+set customer_age = datediff('y', birth_date, current_Date)
+where true
+
+
+alter table sales.customers 
+alter column customer_age type varchar

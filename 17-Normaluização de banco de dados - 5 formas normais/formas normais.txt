@@ -1,0 +1,32 @@
+Primeira Forma Normal
+
+Podemos dizer que uma tabela se encontra na Primeira Forma Normal se:
+
+Possui chave primária;
+Não possui grupos repetitivos;
+Todos os seus atributos são atômicos, ou seja, não precisa ser decomposto.
+
+----------------------------------------
+
+Segunda Forma Normal
+
+Podemos dizer que uma tabela se encontra na Segunda Forma Normal se:
+
+Está na primeira forma normal;
+Não possui dependências parciais da chave primária;
+
+
+----------------------------------------
+
+Terceira Forma Normal
+
+Podemos dizer que uma tabela se encontra na Terceira Forma Normal se:
+
+Está na segunda forma normal;
+Se nenhum dos campos foram determinados transitivamente pela chave primária.
+
+
+----------------------------------------
+Links de estudo:
+https://www.luis.blog.br/normalizacao-de-dados-e-as-formas-normais.html
+https://spaceprogrammer.com/bd/normalizando-um-banco-de-dados-por-meio-das-3-principais-formas/

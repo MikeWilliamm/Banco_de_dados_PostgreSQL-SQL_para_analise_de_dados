@@ -1,0 +1,31 @@
+-- SINTAXE #########################################################################
+select coluna_1, coluna_2
+from schema_1.tabela_1
+
+union / union all
+
+select coluna_3, coluna_4 
+from schema_2.tabela_2
+
+
+-- EXEMPLOS ########################################################################
+
+-- (Exemplo 1) União simples de duas tabelas
+-- Una a tabela sales.products com a tabela temp_tables.products_2
+
+select * from sales.products
+union all
+select * from temp_tables.products_2
+
+select * from sales.products
+union 
+select * from temp_tables.products_2
+
+-- EXEMPLOS ########################################################################
+UNION:
+O operador UNION, por default, executa o equivalente a um SELECT DISTINCT no result set final. Em outras palavras, ele combina o resultado de execução das duas queries e então executa um SELECT DISTINCT a fim de eliminar as linhas duplicadas. 
+
+UNION ALL:
+O operador UNION ALL tem a mesma funcionalidade do UNION, porém, não executa o SELECT DISTINCT no result set final e apresenta todas as linhas, inclusive as linhas duplicadas.
+
+
